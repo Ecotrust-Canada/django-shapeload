@@ -1,6 +1,7 @@
-from distutils.core import setup
-setup(name='shapeload',
+from setuptools import setup, find_packages
+
+setup(name='django-shapeload',
       version='1.0',
-      py_modules=['shapeload'],
+      packages=find_packages(),
       )
 
